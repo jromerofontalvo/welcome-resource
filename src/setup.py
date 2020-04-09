@@ -1,8 +1,7 @@
-
 import setuptools
 
 setuptools.setup(
-    name="diatomic-molecule",
+    name="welcome-resource",
     version="0.1.0",
     py_modules=['welcome']
 )
