@@ -1,15 +1,10 @@
+
 import setuptools
 
 setuptools.setup(
-    name                            = "myorquestra",
-    packages                        = setuptools.find_packages(where = "python"),
-    package_dir                     = {
-        "" : "python"
-    },
-    classifiers                     = (
-        "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent",
-    ),
+    name="diatomic-molecule",
+    version="0.1.0",
+    py_modules=['welcome']
 )
 
 # setuptools.setup(
